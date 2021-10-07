@@ -1,17 +1,34 @@
 # Standup Template
 
 ### Monday
-##### Attendants: 
+_Attendants_: 
+- Issues need to be resolved
+
+- Topics discussed today
 
 ### Tuesday
-##### Attendants: 
+_Attendants_: 
+- Issues need to be resolved
+
+- Topics discussed today
 
 ### Wednesday
-##### Attendants: 
+_Attendants_: 
+- Issues need to be resolved
+
+- Topics discussed today
 
 ### Thursday
-##### Attendants: 
+_Attendants_:
+- Issues need to be resolved
+
+- Topics discussed today  
 
 ### Friday
-##### Attendants: 
+_Attendants_: 
+- Issues need to be resolved
 
+- Topics discussed today
+
+#### Additional Info
+Anything noticeable for the week can be wrote here
