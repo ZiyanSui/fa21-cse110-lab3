@@ -1,15 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+        <link rel="stylesheet" href="mystyle.css">
         <title>
             Iphone Meeting Notes
         </title>
         <meta charset="UTF-8">
-        <link rel="icon" href="astronaut.icon">
+        <link rel="icon" href="media/astronaut.ico">
     </head>
     <body>
-        <header>
-            <h1>New Year Product Meeting</h1>
+        <header>  
+            <h1 style="color: rgb(51, 153, 255);text-align: center;">New Year Product Meeting</h1>
         </header>
 
         <nav>
@@ -21,8 +22,8 @@
 
         <main>
             <section>
-                <h2>Attendance list</h2>
-                <ul>
+                <h2 id="attendance">Attendance list</h2>
+                <ul class="list">
                     <li>Harry Porter</li>
                     <li>Jack Collin</li>
                     <li>Adrian Flynn</li>
@@ -32,22 +33,30 @@
 
             <section>
                 <h2 id="impro">Improvements</h2>
-                <div>
+                <div class="improve">
                     <h3>Camera</h3>
                     <p>dramatically more <b>powerful</b> camera system. A display so responsive, every interaction feels new again. <span>world’s fastest smartphone chip.</span> <strong>Exceptional durability.</strong> And a huge leap in battery life.</p> 
 
                     <hr>
+                </div>
+
+                <div class="screen">
                     <h3>Screen</h3>
                     <p>Our <i>Pro</i> camera system gets its biggest upgrade ever. With next-level hardware that captures so much more detail. Superintelligent software for new photo and filmmaking techniques. And a <em>mind-blowingly</em> fast chip that makes it all possible. It’ll change the way you shoot.</p>
+                </div>
+
+                <div class="connection">
+                    <h3>Connection</h3>
+                    <p>Everything you love about your iPhone gets even better when you use it with a Mac, iPad, or Apple Watch. It all just works together — seamlessly. Answer a call on whatever is close at hand. Take a photo on your iPhone and watch it instantly appear on your Mac. And see all your texts, all the time, on all your devices. Easy.</p>
                 </div>
             </section>
 
             <section>
                 <h2 id="more">More In the Future</h2>
-                <img src="13pro.png" alt="iPhone 13 pro image" width="400" height="450">
-                <audio controls src="demo.m4a"></audio>
+                <img src="media/13pro.png" alt="iPhone 13 pro image" width="400" height="450">
+                <audio controls src="media/demo.m4a"></audio>
                 <video controls>
-                    <source src="video.mp4"> 
+                    <source src="media/video.mp4"> 
                 </video>
 
             </section>
