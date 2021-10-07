@@ -5,6 +5,7 @@ body {
 
 #attendance {
     color: hsl(150, 100%, 40%);
+    text-align: center;
 }
 
 .list {
@@ -31,3 +32,94 @@ body {
     font-size: 2.5ch;
 }
 
+a[href^="#"] {
+    text-decoration: wavy underline;
+}
+
+ul {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-style: solid;
+    border-color: #ffcc00;
+    border-width: 5px;
+    border-radius: 3px;
+    display: block;
+}
+
+ol {
+    margin: 30px 30px 30px 30px;
+    padding: 20px 20px 20px 20px;
+    border-color: wheat;
+    border-style: dotted;
+    display: none;
+}
+
+#picture {
+    height: auto;
+    width: auto;
+    max-width: 10cm;
+    max-height: 20cm;
+    position: static;
+}
+
+#video {
+    position: sticky;
+}
+
+button:hover {
+    color: brown;
+}
+
+a:active {
+    color: red;
+}
+
+h1, h2, h3 {font-family: 'Ephesis', cursive;}
+
+.flex {
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    column-gap: normal;
+    row-gap: normal;
+    justify-items: start;
+}
+
+@media only screen and (max-width: 10px) {
+    body {
+        background-color: royalblue;
+    }
+}
+
+.grid label{
+    color: salmon;
+}
+
+.grid > select {
+    color: rgb(10, 112, 54);
+}
+
+h3 + p {
+    background-color: steelblue;
+}
+
+h2 ~ ul > li{
+    color: rgb(209, 58, 58);
+}
+
+ul.list {
+    background-color: gray;
+}
