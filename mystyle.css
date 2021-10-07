@@ -1,3 +1,33 @@
 body {
-    background-color: bisque;
+    /*Add bisque color to the website background*/
+    background-color: whitesmoke;
 }
+
+#attendance {
+    color: hsl(150, 100%, 40%);
+}
+
+.list {
+    color: #ff3300;
+}
+
+* {
+    color: black;
+}
+
+.improve {
+    width: 200px;
+    font-size: 0.5cm;
+    text-align: left;
+}
+
+.screen {
+    width: 40vw;
+    font-size: 5mm;
+}
+
+.connection {
+    width: 50em;
+    font-size: 2.5ch;
+}
+
